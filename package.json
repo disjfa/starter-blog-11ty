@@ -1,0 +1,30 @@
+{
+  "name": "starter-blog-11ty",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "disjfa",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npm-run-all prod:eleventy gh-pages",
+    "dev": "eleventy --serve --watch",
+    "format": "prettier . --write",
+    "gh-pages": "gh-pages -d _dist",
+    "pre-commit": "npm run format && npm run sort-package-json",
+    "prod:eleventy": "ELEVENTY_ENV=production eleventy",
+    "sort-package-json": "sort-package-json"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-rss": "^2.0.4"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "gh-pages": "^6.3.0",
+    "luxon": "^3.7.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.7.1",
+    "sort-package-json": "^3.4.0"
+  }
+}

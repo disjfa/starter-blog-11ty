@@ -1,0 +1,40 @@
+---
+layout: base
+title: Hello world 1
+date: 2025-04-10
+pagination:
+  data: collections.posts
+  size: 9
+---
+
+
+<div class="posts">
+  {%- for post in pagination.items %}
+  <a href="{{ post.url }}" class="posts-item">
+    {{ post.data.title }}
+    <br>
+    {{ post.date | postDate }}:
+    <small>{{ post.data.description }}</small>
+  </a>
+  {%- endfor %}
+</div>
+
+<br>
+<div class="text-center">
+{% if pagination.href.first %}
+<a href="{{ pagination.href.first }}">first</a>
+{% endif %}
+{% if pagination.href.previous %}
+<a href="{{ pagination.href.previous }}">previous</a>
+{% else %}
+<strong>previous</strong>
+{% endif %}
+{% if pagination.href.next %}
+<a href="{{ pagination.href.next }}">next</a>
+{% else %}
+<strong>next</strong>
+{% endif %}
+{% if pagination.href.last %}
+<a href="{{ pagination.href.last }}">last</a>
+{% endif %}
+</div>

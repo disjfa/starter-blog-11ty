@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {% include 'head.html' %}
+</head>
+<body>
+
+<h1 class="text-center"><a href="{{ '/' | url }}">Starter blog 11ty</a></h1>
+<hr>
+<br>
+
+<h1>{{ title }}</h1>
+<div>
+  {{ date | postDate }}
+</div>
+<br>
+{% if image %}
+<img src="{{ image }}" alt="{{ title }}" class="img-header" width="1720" height="430">
+{% endif %}
+<br>
+{{ content | safe }}
+</body>
+</html>
