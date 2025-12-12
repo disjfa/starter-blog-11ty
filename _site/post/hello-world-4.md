@@ -1,8 +1,10 @@
 ---
-layout: base
-title: Hello world 13
-date: 2025-06-19
+layout: post
+title: Hello world 4
+date: 2025-02-28
+description: pasdasd
 tags: post
+image: https://res.cloudinary.com/dvzjkse9t/image/upload/v1614981356/samples/food/spices.jpg
 ---
 
 <h1>Hello workd</h1>

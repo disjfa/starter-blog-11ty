@@ -1,8 +1,9 @@
 ---
-layout: layouts/post
-title: Hello world 6
-date: 2025-04-10
+layout: post
+title: Hello world 3
+date: 2025-01-15
 tags: post
+image: https://res.cloudinary.com/dvzjkse9t/image/upload/v1614981352/samples/animals/three-dogs.jpg
 ---
 
 <h1>Hello workd</h1>

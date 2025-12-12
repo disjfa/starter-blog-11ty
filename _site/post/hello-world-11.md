@@ -1,16 +1,16 @@
 ---
-layout: base
-title: Hello world 1
-date: 2025-04-10
+layout: post
+title: Hello world 11
+date: 2025-10-31
 tags: post
+image: https://res.cloudinary.com/dvzjkse9t/image/upload/v1614981349/samples/sheep.jpg
 ---
 
-<h1 class="text-center">Hello workd</h1>
-<hr>
-<div class="text-center">
+<h1>Hello workd</h1>
+
+<div>
   {{ page.date | postDate }}
 </div>
-<hr>
 <p>
   Donec ornare augue id varius iaculis. Praesent vel ornare nisi. Pellentesque turpis velit, gravida
   nec semper eget, consequat lobortis metus. Suspendisse consectetur, magna ut scelerisque luctus,

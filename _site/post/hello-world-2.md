@@ -1,8 +1,9 @@
 ---
-layout: base
-title: Hello world 11
-date: 2025-10-31
+layout: post
+title: Hello world 2
+date: 2025-10-10
 tags: post
+image: https://res.cloudinary.com/dvzjkse9t/image/upload/v1614981353/samples/landscapes/architecture-signs.jpg
 ---
 
 <h1>Hello workd</h1>

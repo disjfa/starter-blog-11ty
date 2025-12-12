@@ -1,8 +1,9 @@
 ---
-layout: base
-title: Hello world 14
+layout: post
+title: Hello world 7
 date: 2025-03-21
 tags: post
+image: https://res.cloudinary.com/dvzjkse9t/image/upload/v1614981354/samples/ecommerce/leather-bag-gray.jpg
 ---
 
 <h1>Hello workd</h1>

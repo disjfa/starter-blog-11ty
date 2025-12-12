@@ -1,8 +1,9 @@
 ---
-layout: base
-title: Hello world 12
-date: 2025-11-12
+layout: post
+title: Hello world 14
+date: 2025-03-21
 tags: post
+image: https://res.cloudinary.com/dvzjkse9t/image/upload/v1614981348/samples/food/pot-mussels.jpg
 ---
 
 <h1>Hello workd</h1>

@@ -1,8 +1,9 @@
 ---
-layout: base
-title: Hello world 3
-date: 2025-01-15
+layout: post
+title: Hello world 10
+date: 2025-07-23
 tags: post
+image: https://res.cloudinary.com/dvzjkse9t/image/upload/v1614981350/samples/landscapes/girl-urban-view.jpg
 ---
 
 <h1>Hello workd</h1>

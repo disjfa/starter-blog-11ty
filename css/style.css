@@ -119,6 +119,14 @@ hr {
 .img-header {
     aspect-ratio: 4/1;
     object-fit: cover;
-    max-width: 1720px;
+    max-width: 100%;
     margin: 0 auto;
+    height: auto;
+}
+
+.img-post {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
 }

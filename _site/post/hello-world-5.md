@@ -1,19 +1,12 @@
 ---
-layout: base
-title: Hello world 8
-date: 2025-12-25
+layout: post
+title: Hello world 5
+date: 2025-05-07
 tags: post
-image: assets/jr-korpa-9XngoIpxcEo-unsplash.jpg
+image: https://res.cloudinary.com/dvzjkse9t/image/upload/v1614981352/samples/people/jazz.jpg
 ---
 
 <h1>Hello workd</h1>
-
-{{ page.image | url }}
-
-{% for ket, ire in page %}
-{{ ket }}: {{ ire }}<br>
-{% endfor %}
-<img src="{{ page.image }}" alt="">
 
 <div>
   {{ page.date | postDate }}
