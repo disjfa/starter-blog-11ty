@@ -9,6 +9,8 @@ export default async function (eleventyConfig) {
   eleventyConfig.setOutputDirectory("_dist");
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("favicons");
+  eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addLayoutAlias("base", "layouts/base.html");
   eleventyConfig.addLayoutAlias("post", "layouts/post.html");
 
